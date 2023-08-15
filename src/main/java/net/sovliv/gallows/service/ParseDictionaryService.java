@@ -29,4 +29,12 @@ public class ParseDictionaryService {
         return new Dictionary(result);
     }
 
+    public List<Character> parseWordByLetters(String word) {
+        List<Character> result = new ArrayList<>();
+        for (int i = 0; i < word.length(); i++) {
+            result.add(word.charAt(i));
+        }
+        return result;
+    }
+
 }
