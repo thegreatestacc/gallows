@@ -8,4 +8,8 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Word {
     String noun;
+
+    public Word(String noun) {
+        this.noun = noun;
+    }
 }

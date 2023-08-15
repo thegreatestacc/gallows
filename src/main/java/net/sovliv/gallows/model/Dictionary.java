@@ -10,4 +10,8 @@ import java.util.List;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Dictionary {
     List<Word> words;
+
+    public Dictionary(List<Word> words) {
+        this.words = words;
+    }
 }
